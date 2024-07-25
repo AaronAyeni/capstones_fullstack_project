@@ -7,8 +7,8 @@ import { CenterFocusStrong } from "@mui/icons-material";
 const DashboardContainer = ({deliveryByPostalDistrict, routeData}) => {
     return (
         <>
+        <main>
         <h1 className="header-colour">Current Routes</h1>
-        <main className='main-component-sizing'>
             <Container maxWidth="lg" sx={{ mt: 4, mb: 4, display: 'flex',  justifyContent: "center"}}>
                 <Grid container spacing={3} justifyContent='center'>
                     <Grid item xs={12}>

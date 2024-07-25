@@ -115,14 +115,20 @@ footer ul li {
  
 } */
 
-.map-body {
+/* .map-body {
   align-items: center;
-}
+} */
 
-.main-component-sizing {
+/* .main-component-sizing {
   width: 2000px;
   height: auto;
   align-items: center;
+} */
+
+.containers {
+  align-items: center;
+  width: 2000px;
+  height: auto;
 }
 
 .map-body{

@@ -126,7 +126,7 @@ const ParentContainer = () => {
 
     return (
         <>
-        <main>
+        <main className='containers'>
             <ResponsiveLayout>
                 <RouterProvider router={router}/>
             </ResponsiveLayout>

@@ -9,8 +9,8 @@ const DeliveriesContainer = ({allWayPointData,deliveryData}) => {
 
     return (
         <>
-        <h1 className="header-colour">Deliveries</h1>
-            <main className='main-component-sizing'>
+            <main>
+            <h1 className="header-colour">Deliveries</h1>
                 <Container maxWidth="lg" sx={{ mt: 4, mb: 4}}>
                     <Grid container spacing={3}>
                         <Grid item xs={12}>

@@ -13,7 +13,7 @@ const OurMapContainer = ({ waypointData, setPostalDistrict }) => {
 
     return (
         <>
-        <div className="map-body">
+        <div>
         <h1 className="header-colour">Map</h1>
             <div className='route-filter-select'>
                 <select className="big-select" value={selectedDistrict} onChange={handleDistrictChange}>
