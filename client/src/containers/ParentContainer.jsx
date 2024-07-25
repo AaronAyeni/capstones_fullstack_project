@@ -130,7 +130,7 @@ const ParentContainer = () => {
             <ResponsiveLayout>
                 <RouterProvider router={router}/>
             </ResponsiveLayout>
-            <footer className='footer'>
+            <footer>
                 <ul>
                     <li>Contact us: +44 (0) 330 1232288</li>
                     <li>RainforestRetail &copy;</li>
